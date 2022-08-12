@@ -1,0 +1,14 @@
+---
+layout: default
+title: Mason Guo's Personal Site
+---
+
+Hi there, I am Mason Guo, an Open Source enthusiast. This site is dedicated to providing information about me and my works.
+
+## Articles
+
+<ul class="posts">
+    {% for post in site.posts %}
+      <li>{{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}" target="_blank">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

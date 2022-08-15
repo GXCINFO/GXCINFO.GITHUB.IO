@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: welcome
 title: Mason Guo's Personal Site
 ---
 

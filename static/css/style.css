@@ -1,6 +1,8 @@
 html,body{padding: 0;margin: 0;}
-body{background: url(../images/bg.png) repeat;}
+body{background-color: #fdfdfd;}
 h1{text-align: center; padding-left: 1em; padding-right: 1em; color: #222226;}
+.header{border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 56px;}
+.site-title,.site-title:visited{color: #424242;}
 .article,.foot{max-width: 100%; padding-left: 1em; padding-right: 1em; word-wrap: break-word; background: #FFFFFB; padding-top: 0.1em; padding-bottom: 1em;}
 .article img{max-width: 100%;display: block; margin: 0 auto;}
 .article p,.article li{line-height: 1.6;}

@@ -3,18 +3,22 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/static/css/typo.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
-    <link rel="icon" type="image/x-icon" href="https://MasonGuo.COM/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <title>{{ page.title }}</title>
   </head>
-  <body>
-    <h1>{{ page.title }}</h1>
-    <div class="article">{{ content }}</div>
-    <hr>
-    <div class="foot">
-      <!-- <p>Copyright © 1980~2025 Mason Guo unless otherwise stated<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank"> (there might be the odd Creative Commons license image within articles)</a></p> -->
-      <p>Copyright © 1980~2025 Mason Guo unless otherwise stated (there might be the odd Creative Commons license image within articles)</p>
-      <p><a href="https://MasonGuo.com/" target="_blank"><b>MasonGuo.COM</b></a></p>
-    </div>
-  </body>
+  <div id="navbar">
+    <a href="/index.html">HOME</a> &nbsp;
+    <a href="/about/">About Me</a>
+  </div>
+  <div id="wrapper" class="typo">
+    <h1 style="text-align: center; margin-bottom: 0;">{{ page.title }}</h1>
+    <br />
+    {{ content }}
+    <br />
+    <blockquote>
+      十年饮冰,难凉热血
+    </blockquote>
+  </div>
 </html>

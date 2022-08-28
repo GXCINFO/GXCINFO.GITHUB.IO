@@ -3,32 +3,19 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/static/css/typo.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
-    <link rel="icon" type="image/x-icon" href="https://MasonGuo.COM/favicon.ico" />
-    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>Mason's Corner</title>
   </head>
-  <body>
-    <div class="header">
-      <div class="wrapper">
-        <div class="site-title"><a href="/">Mason Guo's Personal Site</a></div>
-        <div class="site-menu">
-          <div class="iconfont menu_button" style="display:none;"><i class="m_b_1"></i><i class="m_b_2"></i><i class="m_b_3"></i></div>
-          <ul class="nav_iteam">
-            <li title=""><a href="#">About Me</a></li>
-            <li title=""><a href="#"> Research & Projects</a></li>
-            <li title=""><a href="#">Blog</a></li>
-            <li title=""><a href="#">Learning</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <h1>{{ page.title }}</h1>
-    <div class="article">{{ content }}</div>
-    <hr>
-    <div class="foot">
-      <!-- <p>Copyright © 1980~2025 Mason Guo unless otherwise stated<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank"> (there might be the odd Creative Commons license image within articles)</a></p> -->
-      <p>Copyright © 1980~2025 Mason Guo unless otherwise stated (there might be the odd Creative Commons license image within articles)</p>
-      <p><a href="https://MasonGuo.com/" target="_blank"><b>MasonGuo.COM</b></a></p>
-    </div>
-  </body>
+  <div id="navbar">
+    <a href="/index.html">HOME</a> &nbsp;
+    <a href="/about/">About Me</a>
+  </div>
+  <div id="wrapper" class="typo">
+    <h1 style="text-align:center; margin-bottom: 0;">{{ page.title }}</h1>
+    <br />
+    {{ content }}
+    <br />
+  </div>
 </html>

@@ -146,10 +146,11 @@ pre, code {
 	font-family: "Courier New", Courier, monospace;
 }
 pre {
-	border: 1px solid #ddd;
+	border: 1px solid #00A29C;
 	border-left-width: 0.4em;
-	background: #fbfbfb;
+	background: #e8f5f8;
 	padding: 10px;
+	color: #00758D;
 }
 
 /* 底部印刷体、版本等标记 */

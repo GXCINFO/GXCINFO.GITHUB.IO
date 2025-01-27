@@ -1,9 +1,9 @@
 ---
 layout: default
-title: GXC.INFO's Corner
+title: GXC.INFO
 ---
 
-Hi there, I am Mason Guo, an Open Source enthusiast. This site is dedicated to providing information about me and my works.
+Hi there, I am an Open Source enthusiast. This site is dedicated to providing information about me and my works.
 
 <p><br /><b>My Blog:</b></p>
   <ul class="posts">

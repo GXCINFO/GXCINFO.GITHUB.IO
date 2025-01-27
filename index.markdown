@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mason's Corner
+title: GXC.INFO's Corner
 ---
 
 Hi there, I am Mason Guo, an Open Source enthusiast. This site is dedicated to providing information about me and my works.
@@ -17,7 +17,7 @@ Hi there, I am Mason Guo, an Open Source enthusiast. This site is dedicated to p
 <ul>
   <li><a href="http://github.com/Mason-Guo/">Github</a></li>
 </ul>
-<p><br /><b>Motto:</b></p>
+<p><br /><b>What's Up:</b></p>
 <blockquote>
 贵有恒，何必三更起五更睡；最无益，只怕一日曝十日寒。
 </blockquote>

@@ -15,7 +15,7 @@ Hi there, I am an Open Source enthusiast. This site is dedicated to providing in
 <p><b>Find me on:</b></p>
 
 <ul>
-  <li><a href="http://github.com/Mason-Guo/">Github</a></li>
+  <li><a href="http://github.com/GXCINFO/">Github</a></li>
 </ul>
 <p><br /><b>What's Up:</b></p>
 <blockquote>
